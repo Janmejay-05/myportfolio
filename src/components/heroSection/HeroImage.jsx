@@ -1,3 +1,4 @@
+import jay from "../../assets/images/jay-05.png";
 import { PiHexagonThin } from "react-icons/pi";
 
 const HeroImage = () => {
@@ -5,7 +6,7 @@ const HeroImage = () => {
     <div className="relative self-end h-full w-full items-center justify-center">
       <div className=" h-full w-full">
         <img
-          src="../../public/images/me.png"
+          src={jay}
           alt="Janmejaysinh Zala"
           className="w-auto h-auto md:max-w-[570px] sm:max-w-[380px] absolute bottom-[0px] z-10 left-[50%] -translate-x-[50%]"
         />

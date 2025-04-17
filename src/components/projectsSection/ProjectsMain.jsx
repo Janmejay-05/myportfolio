@@ -1,3 +1,7 @@
+import img1 from "../../assets/images/pro1.png";
+import img2 from "../../assets/images/pro2.png";
+import img3 from "../../assets/images/website-img-3.jpg";
+import img4 from "../../assets/images/website-img-4.jpg";
 import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
@@ -8,28 +12,28 @@ const projects = [
     name: "Admin pannel",
     year: "Dec 2024",
     align: "right",
-    image: "../../public/images/pro1.png",
+    image: `${img1}`,
     link: "https://javascript-final-project-two.vercel.app/",
   },
   {
     name: "Day/Night Mode App",
     year: "Jan2022",
     align: "left",
-    image: "../../public/images/pro2.png",
+    image: `${img2}`,
     link: "https://bankingapp-liart.vercel.app/",
   },
   {
     name: "Tourzania",
     year: "Jan2023",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: `${img3}`,
     link: "#",
   },
   {
     name: "Bank of Luck",
     year: "May2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: `${img4}`,
     link: "#",
   },
 ];
